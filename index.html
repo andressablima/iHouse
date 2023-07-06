@@ -85,7 +85,7 @@
       </div>
     </nav>
     <div class="container" id="slider-container">
-      <div class="carousel slide" id="slider">
+      <div class="carousel slide" id="slider" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -113,24 +113,94 @@
             <img src="img/banner-1.jpg" alt="house 1" class="d-block w-100" />
             <div class="carousel-caption">
               <h5>Planned Houses</h5>
-              <a href="#" class="btn btn-dark">Ver projetos</a>
+              <a href="#" class="btn btn-dark">See more</a>
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/banner-2.jpg" alt="house 2" class="d-block w-100" />
             <div class="carousel-caption">
               <h5>Projects</h5>
-              <a href="#" class="btn btn-dark">Ver projetos</a>
+              <a href="#" class="btn btn-dark">See more</a>
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/banner-3.jpg" alt="house 3" class="d-block w-100" />
             <div class="carousel-caption">
               <h5>Innovative Projects</h5>
-              <a href="#" class="btn btn-dark">Ver projetos</a>
+              <a href="#" class="btn btn-dark">See more</a>
             </div>
           </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="prev"
+        >
+          <i class="bi bi-chevron-compact-left"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="next"
+        >
+          <i class="bi bi-chevron-compact-right"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Mini banners -->
+      <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <i class="bi bi-box primary-color"></i>
+              <div class="card-body">
+                <h5 class="card-title primary-color">All Projects</h5>
+                <p class="card-text secondary-color">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+                <a href="#" class="btn btn-dark">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <i class="bi bi-box primary-color"></i>
+              <div class="card-body">
+                <h5 class="card-title primary-color">You choose</h5>
+                <p class="card-text secondary-color">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+                <a href="#" class="btn btn-dark">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <i class="bi bi-box primary-color"></i>
+              <div class="card-body">
+                <h5 class="card-title primary-color">Fast construction</h5>
+                <p class="card-text secondary-color">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+                <a href="#" class="btn btn-dark">View More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="featured-container">
+      <div class="col-12">
+        <h2 class="title primary-color">Best Projects</h2>
+        <p class="subtitle secondary-color">
+          Know more about our best and more challenging projects.
+        </p>
+      </div>
+      <div class="col-12" id="featured-images">
+        <div class="row g-4"></div>
       </div>
     </div>
   </body>
