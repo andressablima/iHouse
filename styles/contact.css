@@ -69,10 +69,13 @@
     padding-right: 5em;
   }
 }
-/* container */
-#houses-container {
-  margin-top: 5em;
-  margin-bottom: 4em;
+
+/* FORM */
+
+#container-form {
+  display: flex;
+  margin-top: 8em;
+  padding: 0 10px;
 }
 
 .title {
@@ -89,54 +92,14 @@
   bottom: 2em;
 }
 
-#houses-img {
-  margin-top: 2em;
-}
-
-#houses-img .col-md-4 {
-  position: relative;
-  cursor: pointer;
-}
-
-#houses-img .col-md-4:hover > .banner-content {
-  opacity: 0.8;
-}
-
-#houses-container .banner-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  opacity: 0.6;
-  transition: 0.5s;
-}
-
-@media (min-width: 768px) {
-  .title {
-    font-size: 2.4em;
-  }
-
-  .title:before {
-    bottom: 1.5em;
-  }
-
-  #houses-img .banner-content {
-    opacity: 0;
-  }
-  .img-fluid {
-    border-radius: 10px;
-  }
+button:hover {
+  background-color: #7a7a7a;
 }
 
 /*footer*/
 #footer {
   padding: 3em 2em;
+  margin-top: 2em;
 }
 
 #footer-top {
@@ -185,5 +148,10 @@
     padding: 0 2em;
     border-left: 1px solid #7a7a7a;
     border-right: 1px solid #7a7a7a;
+  }
+  #container-form {
+    display: flex;
+    margin-top: 8em;
+    padding: 2em 10em;
   }
 }

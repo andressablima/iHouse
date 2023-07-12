@@ -58,6 +58,17 @@
 #navbar-items .nav-item {
   margin: 0 1em;
 }
+@media (min-width: 768px) {
+  #navbar {
+    padding-left: 4em;
+  }
+  #navbar-items .navbar-nav {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    padding-right: 5em;
+  }
+}
 
 /* Slider */
 #slider {
